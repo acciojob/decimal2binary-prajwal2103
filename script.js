@@ -5,7 +5,7 @@ function decimalToBinary(num) {
 	  sum=String(remainder)+sum;
 	  num=Math.floor(num/2);
   }
-	return parseInt(sum);
+	return sum;
   
 }
 
